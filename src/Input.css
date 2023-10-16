@@ -70,7 +70,7 @@
 
     /* news */
     #news{
-        @apply py-[125px]
+        @apply py-16
     }
 
     #news .container{
@@ -83,6 +83,14 @@
 
     #news .title h4{
         @apply
+    }
+
+    th{
+        @apply border border-black
+    }
+    
+    td{
+        @apply border border-black
     }
 
     #news .title h2{
