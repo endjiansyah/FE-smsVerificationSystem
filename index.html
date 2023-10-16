@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Tailwind CSS</title>
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- flowbite -->
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/output.css">
+
+</head>
+<body>
+
+    <!-- News (bawahnya gambar HP) -->
+    <section id="news">
+        <div class="container">
+            <div class="title">
+                <h2>SMS Verification System</h2>
+            </div>
+            <!-- <div class="card-box">
+
+                <div class="card">
+                    <img src="./assets/images/news2.png" alt="news">
+                    <div class="line">
+                        <div class="text">
+                            <h3>
+                                Netbook Network Added New Photo Filter
+                            </h3>
+                            <a href="#!" class="">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/news3.png" alt="news">
+                    <div class="line">
+                        <div class="text">
+                            <h3>
+                                We Optimised Netbooks Better Navigation
+                            </h3>
+                            <a href="#!" class="">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="py-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-16 lg:mx-4">
+                    <div class="flex items-center gap-1 bg-green-300">
+                        <label for="client" class="w-44">Select Client</label>
+                        <select name="client" id="client" class="w-full px-2 py-2">
+                            <option value="157">Client 157</option>
+                            <option value="158">Client 158</option>
+                            <option value="158">Client 159</option>
+                        </select>
+                    </div>
+                    <!-- ... -->
+                    <div class="flex items-center gap-1 bg-green-300">
+                        <label for="contact" class="w-44">Select contact</label>
+                        <select name="contact" id="contact" class="w-full px-2 py-2">
+                            <option value="161">Bob Jones</option>
+                            <option value="162">George Bush</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="py-8 flex justify-center">
+                    <button class="px-6 py-4 bg-green-600 text-white">Send Verification</button>
+                </div>
+            </div>
+            <div class="w-full h-1 bg-black"></div>
+
+            <div class="title">
+                <h4 class="text-black">Last Code Sent</h4>
+            </div>
+            
+        </div>
+    </section>
+
+</body>
+</html>
